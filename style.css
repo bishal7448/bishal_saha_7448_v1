@@ -382,3 +382,18 @@ body{
     left: calc(var(--width) - var(--left)  - 5px);
     top: calc(var(--height) + var(--top));
 }
+
+@media(max-width: 400px){
+    .list .item .year span{
+        background-color: var(--yellow);
+        color: var(--dark);
+        font-weight: bold; 
+        padding: 5px 15px 5px 5px;
+        display: block;
+        font-size: 0.7rem;
+        transform: translateY(10px);
+        clip-path: polygon(
+            0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%
+        );
+    }
+}
