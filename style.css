@@ -358,7 +358,7 @@ body{
     border-bottom: 1px solid var(--white);
     border-left: 1px solid var(--white);
     top: calc(var(--top));
-    left: calc(-1 * var(--left));
+    left: calc(-0.88 * var(--left));
 }
 .row3 .education::after{
     left: calc(var(--width) - var(--left));
