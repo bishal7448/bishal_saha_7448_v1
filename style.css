@@ -134,9 +134,9 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 130%;
-    border-bottom-left-radius: 41%;
-    border-bottom-right-radius: 41%;
+    height: 108%;
+    border-bottom-left-radius: 47%;
+    border-bottom-right-radius: 47%;
     object-fit: cover;
 }
 .intro .content{
