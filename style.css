@@ -358,7 +358,7 @@ body{
     border-bottom: 1px solid var(--white);
     border-left: 1px solid var(--white);
     top: calc(var(--top));
-    left: calc(-0.88 * var(--left));
+    left: calc(-1 * var(--left));
 }
 .row3 .education::after{
     left: calc(var(--width) - var(--left));
@@ -383,17 +383,24 @@ body{
     top: calc(var(--height) + var(--top));
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px){
     .list .item .year span{
         background-color: var(--yellow);
         color: var(--dark);
         font-weight: bold; 
         padding: 5px 15px 5px 5px;
         display: block;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         transform: translateY(10px);
         clip-path: polygon(
             0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%
         );
+    }
+
+    .row3 .education::before{
+        border-bottom: 1px solid var(--white);
+        border-left: 1px solid var(--white);
+        top: calc(var(--top));
+        left: calc(-0.75 * var(--left));
     }
 }
