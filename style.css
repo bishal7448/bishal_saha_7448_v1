@@ -383,7 +383,7 @@ body{
     top: calc(var(--height) + var(--top));
 }
 
-@media(max-width: 600px){
+@media only scrren and (max-width: 600px){
     .list .item .year span{
         background-color: var(--yellow);
         color: var(--dark);
